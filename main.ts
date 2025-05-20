@@ -20,6 +20,7 @@ server.tool(
   },
   async ({city}) => {
     return {
+      // hardcodeando la respuesta
       content: [
         {
           type: 'text',
