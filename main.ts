@@ -4,7 +4,7 @@ import {z} from 'zod';
 
 // 1 create the interface
 // Maneja lo que es la comunicacion del cliente y servidor
-
+console.log('Starting server...')
 const server = new McpServer({
   name: 'myMcpServer',
   version: '1.0.0',
