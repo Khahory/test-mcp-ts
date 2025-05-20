@@ -1,4 +1,5 @@
 import {McpServer} from '@modelcontextprotocol/sdk/server/mcp.js';
+import {StdioServerTransport} from "@modelcontextprotocol/sdk/server/stdio.js";
 import {z} from 'zod';
 
 // 1 create the interface
@@ -28,3 +29,7 @@ server.tool(
     }
   },
 )
+
+// 3. Escuchar las conexiones del cliente
+const transport = new StdioServerTransport()
+server.connect(transport)
