@@ -1,0 +1,18 @@
+{
+    "servers": {
+        // add your MCP stdio servers configuration here
+        // example:
+         "get-weather-mcp": {
+             "type": "stdio",
+             "command": "npx",
+             "args": [
+                 "-y",
+                 "tsx",
+                 "/Users/angelamadita/PycharmProjects/test-mcp-ts/main.ts"
+             ],
+             "env": {
+                 "TOKEN": "my_token"
+             }
+         }
+    }
+}
