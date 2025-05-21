@@ -39,7 +39,8 @@ server.tool(
     // 3. Obtener clima
     const weatherResponse = await fetch(
       `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}` +
-      `&hourly=temperature_2m,current_weather=temperature_2m,precipitation,is_day,rain` +
+      `&hourly=temperature_2m,precipitation,is_day,rain` +
+      `&current_weather=true` +
       `&forecast_days=1`
     );
     const weatherData = await weatherResponse.json();
