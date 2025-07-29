@@ -19,3 +19,7 @@ HOLA - Lo usamos para depurar por asi decirlo las llamadas que hace el cliente a
 npx -y @modelcontextprotocol/inspector npx -y tsx main.ts
 ```
 
+```shell
+agregnado comando nuevo
+```
+
