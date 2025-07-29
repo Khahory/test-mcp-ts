@@ -13,7 +13,7 @@ npx tsx main.ts -y
 
 ## Descripción
 
-Lo usamos para depurar por asi decirlo las llamadas que hace el cliente a la API de MCP.
+Lo usamos para depurar por asi decirlo las llamadas que hace el cliente a la API de MCP
 
 ```shell
 npx -y @modelcontextprotocol/inspector npx -y tsx main.ts
